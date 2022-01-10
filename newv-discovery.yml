@@ -1,0 +1,5 @@
+spring:
+  security:
+    user:
+      name: "{cipher}2e5047f685f168aeb6150105dd90a37a0a93738b35586a34d1e6036c439cbbe6"
+      password: "{cipher}4dd9739ba9ff32a16c97b4c97cbfefe3a467f81c946867d9780d7f6508c23ce4"
