@@ -1,0 +1,3 @@
+server.port: 8000
+
+TOKEN_SECRET: "{cipher}dcaed169d126e38b088edacbf37094abeab401fddbd48593775740049e32d9c9"

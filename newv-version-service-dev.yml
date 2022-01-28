@@ -1,0 +1,16 @@
+server.port: 8082
+
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/newv}
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: ${MARIADB_URI:jdbc:mariadb://localhost:3306/newv}
+    username: "{cipher}fa5d159c7f7de98e6cf5da07653e758c5acf1715c81b0c6eefd8b0d4ed5befed"
+    password: "{cipher}0ebe5d9d556460b12f8f7fa9524a06003ace297b5fb4554830a1eeb921846f4e"
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_DEFAULT_ZONE:http://localhost:8761/eureka}

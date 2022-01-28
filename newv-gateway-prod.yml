@@ -1,0 +1,4 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://newv-discovery-peer-1:9001/eureka/,http://newv-discovery-peer-2:9002/eureka/
