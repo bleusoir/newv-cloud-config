@@ -2,3 +2,9 @@ eureka:
   client:
     fetchRegistry: true
     registerWithEureka: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, busrefresh, prometheus, metrics
